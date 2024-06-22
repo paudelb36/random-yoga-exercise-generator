@@ -35,3 +35,17 @@
   border-radius: 8px; /* Rounded corners for the image */
 }
 
+@media (max-width: 768px) {
+  .exercise-card {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .exercise-text {
+    padding-right: 0;
+    padding-bottom: 20px; /* Space between text and image on small screens */
+  }
+
+  .exercise-image img {
+    width: 100%; /* Make image responsive on small screens */
+  }
+}
