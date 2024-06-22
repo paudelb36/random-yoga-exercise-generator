@@ -2,29 +2,16 @@
 
 ## Things Learned While Creating This Project  
 
-1. Project Structure:
-
-->Organizing the project files and folders, adhering to structured approach for components, data managements, styles and assets.
+1. Organized the project files and folders in structured approach
 
 
-2. Component Architecture:
-
-->Structuring components effectively to encapsulate functionality and promote reusability.
-->Components like ExerciseList for managing state and displaying random exercises, ExerciseCard for rendering individual exercises, and Button for interactive elements.
+2. Component Architecture are structured effectively to enxapsulate functionality and promote reusability.
 
 
-3. Data Management
-->Managing yoga exercise data in a structured format (e.g., JSON file, API).
-->Importing and utilizing exercise data within components, ensuring data integrity and consistency.
+3. Managed the yoga exercise data in a structued format i.e. JSON file
 
 
-4. Random Exercise Generation:
-
-->Implementing logic to generate a random exercise based on available data.
-->Using JavaScript methods like Math.random() and array manipulation (Array.prototype.map, Array.prototype.filter) to select and display random exercises.
+4. Random Exercise Generation logic is implemented to generate random exercise based on available data using javascript methods like Math.random(),Math.floor() and array manipulation facilitating the random selection of exercises from the exercises array based on generated indices
 
 
-5. Styling and Theming:
-
-->Applying CSS or CSS-in-JS (styled-components) for styling components and achieving a cohesive visual presentation.
-->Possibly implementing themes or color schemes to enhance user experience and aesthetic appeal.
+5. Applying CSS or CSS-in-JS (styled-components) for styling components and achieving a cohesive visual presentation.
