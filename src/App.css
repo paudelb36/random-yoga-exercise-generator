@@ -1,0 +1,37 @@
+.App{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+}
+.exercise-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Adjust max-width as needed */
+  margin: 20px auto; /* Center the card horizontally */
+  display: flex;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Add space between the text and the image */
+}
+
+
+.exercise-text {
+  flex: 1; /* Take up remaining space */
+  padding-right: 20px; /* Space between text and image */
+}
+
+.exercise-image {
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.exercise-image img {
+  width: 400px; /* Set a fixed width for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+}
+
